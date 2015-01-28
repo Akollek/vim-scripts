@@ -9,3 +9,9 @@ Two commands here.
 
 * `:Latex` - This one compiles and opens the pdf is compile is successful (assumes OSX, uses `open` command)
 * `:Assignment` - If vim is used to create a new tex file, this command fills the file with my assignment template 
+
+#### Setup ####
+
+```
+curl "https://raw.githubusercontent.com/Akollek/vim-scripts/master/setup-latex.sh" | bash
+```
