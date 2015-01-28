@@ -4,6 +4,7 @@ curl -sS "https://raw.githubusercontent.com/Akollek/vim-scripts/master/latex/ass
 curl -sS "https://raw.githubusercontent.com/Akollek/vim-scripts/master/latex/assignment-template.tex" > ~/.vim/ak-latex/assignment-template.tex 
 
 if [ ! -f ~/.vimrc ]
+then
 	touch ~/.vimrc
 fi
 
